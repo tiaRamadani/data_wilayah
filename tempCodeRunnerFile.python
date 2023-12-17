@@ -1,0 +1,31 @@
+from tkinter import *
+from tkinter import *
+
+root = Tk()
+root.title("Perdagangan-2")
+
+label_tanggal = Label(root, text="Tanggal")
+label_tanggal.grid(row=0, column=0)
+
+input_tanggal = Entry(root)
+input_tanggal.grid(row=0, column=1)
+
+label_jam = Label(root, text="Jam")
+label_jam.grid(row=1, column=0)
+
+input_jam = Entry(root)
+input_jam.grid(row=1, column=1)
+
+label_keterangan = Label(root, text="Keterangan")
+label_keterangan.grid(row=2, column=0)
+
+input_keterangan = Entry(root)
+input_keterangan.grid(row=2, column=1)
+
+label_jumlah = Label(root, text="Jumlah (Rp)")
+label_jumlah.grid(row=3, column=0)
+
+input_jumlah = Entry(root)
+input_jumlah.grid(row=3,
+
+
